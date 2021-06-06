@@ -11,7 +11,7 @@ def delivery_report(err, msg):
     else:
         print('Message delivered to {} [{}]'.format(msg.topic(), msg.partition()))
 
-file1 = open("Book 1 - The Philosopher's Stone.txt", 'r') 
+file1 = open("book/Book 1 - The Philosopher's Stone.txt", 'r') 
 Lines = file1.readlines()
 i=0
 for data in Lines:
